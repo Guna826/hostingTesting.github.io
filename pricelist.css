@@ -1,0 +1,197 @@
+
+
+.pricelist-flex-main-container
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap:200px;
+    margin-top: 50px;
+    
+    /*background-color: rgba(53, 11, 11, 0.636);*/
+}
+
+.pricelist-flex-main-container a
+{
+    text-decoration: none;
+}
+
+.scrolltop-container
+{
+    overflow:hidden;
+    width: 100vw;
+    background-color: yellow;
+    position: fixed;
+    
+}
+
+.scrolltop
+{
+    animation: scroll 20s linear 1s infinite running;
+    text-wrap: nowrap;
+    background:transparent;
+    color:rgb(225, 215, 215);
+    font-size: large;
+    font-weight: 600;
+    height: 35px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    border:2px solid rgba(255, 255, 255, 0);
+    border-radius: 300px;
+}
+
+
+
+@keyframes scroll {
+
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-90%);
+    }
+}
+
+.contact-details
+{
+    width:300px;
+    height:350px;
+    background-color: white;
+    border:none;
+    
+}
+
+.visiting-card {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(146, 60, 60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    
+    text-align: center;
+    color: white;
+    padding: 0px;
+    
+
+}
+
+
+
+.card-content {
+    position: relative;
+    
+}
+
+
+h2 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
+.excel-container,.pdf-container
+{
+    
+    width:100px;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-wrap: nowrap;
+    font-size:x-large;
+    color: rgb(252, 252, 252);
+    font-weight:bolder;
+    border-radius: 10px;
+    transition: 79ms;
+    filter: drop-shadow(0px 0px 5px rgb(58, 44, 44));
+    cursor:pointer;
+    
+}
+
+
+.excel-container
+{
+    margin:30px;
+}
+
+.pdf-container
+{
+margin:30px;
+
+
+
+}
+
+
+.excel-container:hover
+{
+    font-size:xx-large ;
+}
+
+.pdf-container:hover
+{
+    font-size: xx-large;
+}
+
+
+.total-order-type
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy-online-container
+{
+    margin:100px 100px;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+position: absolute;
+top:500px;
+left:590px;
+
+}
+
+.buy-online-button
+{
+    width:150px;
+    height:50px;
+    background:rgb(15, 38, 58);
+
+    text-wrap: nowrap;
+    font-size:large;
+    font-weight: bolder;
+    border:none;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+.buy-online-button:hover
+{
+    color: rgb(14, 38, 59);
+    filter: drop-shadow(5px 5px 10px rgb(20, 3, 3));
+    background-color: rgb(190, 183, 205);
+    cursor:pointer;
+}
+
+.buy-online-button:active
+{
+    background-color:rgb(65, 65, 135) ;
+}
+
+

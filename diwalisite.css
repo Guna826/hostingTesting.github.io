@@ -1,0 +1,287 @@
+
+        .left-header
+        {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height:80px;
+            justify-content: right;
+            margin-bottom: 20px;
+        }
+
+        .left-header:hover
+        {
+          cursor: pointer;
+        }
+        .left-header-1
+        {
+            display: flex;
+            width:max-content;
+            height: 50px;
+            
+          
+        
+            
+            
+        }
+        .logo-container
+        {
+            width:max-content;
+            margin-top:10px;
+            
+            
+        }
+        .logo-pic
+        {
+            width:74px;
+            height: 74px;
+
+        }
+        .brand-name-container
+        {
+            height: 55px;
+            font-size:54px;
+            font-weight: bold;
+            font-family: Roboto;
+            color:rgb(252, 252, 252);
+            
+            padding-left:5px;
+            
+            
+          
+            
+        }
+
+        .left-header-2
+        {
+            
+            
+            display: flex;
+            flex-direction: column;
+            
+            padding:5px 0px 0px 100px;
+            
+            color:white;
+            
+        }
+
+        .full-name
+        {
+            width:380px;
+            
+        }
+        .website-link
+        {
+            width:380px;
+        }
+
+        .header-big
+        {
+            display: flex;
+            flex-direction: row;
+            flex:1;
+            height:120px;
+            background-color: rgb(205, 45, 5);
+            padding-left: 20px;
+            align-items: center;
+            position: fixed;
+            top:0px;
+            right:0px;
+            left:0px;
+            z-index: 10;
+      
+        }
+
+        
+
+        .middle-header
+        {
+          display: flex;
+          flex:1;
+          height: 120px;
+          padding-right: 150px;
+          background: url(deepam.png)  repeat;
+          background-position: 50%;
+          background-size: 128px;
+          transition: 0.25ms;
+        }
+        
+
+        .middle-header:hover
+        {
+          background: url(deepamflipped.png)  repeat;
+          background-position: 50%;
+          background-size: 128px;
+        }
+       
+
+        
+
+        
+       
+        
+
+
+        
+        
+        .prizelist-div
+        {
+          width:max-content;
+          
+        }
+        .prizelist-button
+        {
+          width:130px;
+          text-wrap: nowrap;
+          padding:20px 50px;
+          
+          text-decoration:solid;
+          color:rgb(255, 248, 248);
+          border-radius: 30px;
+          background-color: rgb(71, 10, 10);
+          background-size:130px;
+          background-position:50%;
+          font-size: 20px;
+          font-weight: bold;
+
+          border:none;
+          transition: color 0.20s, background-color 0.20s;
+        }
+
+
+        .prizelist-button:hover
+        {
+          cursor:pointer;
+          background-color: white;
+          color:rgb(77, 11, 11);
+          font-size: 21px;
+        }
+
+        .right-header
+        {
+          width:300px;
+          height: 120px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background: url(supersale-transformed\ \(1\).png);
+          background-size: cover;
+          background-position: center;
+        }
+
+
+
+
+
+        
+
+        
+
+.ourcollection
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+.ourcollection h1
+{
+  width:min-content;
+  text-wrap: nowrap;
+  font-style:italic;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+
+.main-body
+{
+  width:300px;
+  height:max-content;
+  gap:20px;
+
+}
+
+.main-body:hover img
+{
+  transform: scale(1.1);
+}
+
+.main-body:hover p
+{
+  transform: scale(1.1);
+  z-index: 3;
+  font-weight: bold;
+}
+
+
+.product-image
+{
+  width:300px;
+  text-align: center;
+  filter: drop-shadow(5px 5px 10px );
+}
+.cracker-pic
+{
+  width:150px;
+  background-color: transparent;
+  transition: transform 0.3s;
+}
+
+
+
+.product-type
+{
+  text-align: center;
+  font-size: large;
+  
+  
+}
+
+.cracker-type
+{
+  width:300px;
+  height:fit-content;
+  color:white;
+  margin-top:5px;
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 30px rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+.all-product-container
+{
+  padding:70px 70px 100px 70px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap:70px;
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+        
+#audio {
+  position: absolute;
+  left: -9999px;
+}
